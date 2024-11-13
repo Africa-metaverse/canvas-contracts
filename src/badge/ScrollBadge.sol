@@ -10,7 +10,7 @@ import {IScrollBadgeResolver} from "../interfaces/IScrollBadgeResolver.sol";
 import {AttestationBadgeMismatch, Unauthorized} from "../Errors.sol";
 
 /// @title ScrollBadge
-/// @notice This contract implements the basic functionalities of a Scroll badge.
+/// @notice This contract implements the basic functionalities of a Scroll badge and Africa metaverse
 ///         It serves as the base contract for more complex badge functionalities.
 abstract contract ScrollBadge is IScrollBadge {
     // The global Scroll badge resolver contract.
